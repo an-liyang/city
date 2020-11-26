@@ -1,28 +1,53 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <button @click="getInit">选择城市</button>
+    <SelectCity :get-city-data="allData" />
+    <!-- <OpTicket /> -->
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+// import axios from 'axios'
+import SelectCity from './components/SelectCity.vue'
+// import OpTicket from './components/OpTicket.vue'
+// import Vue from 'vue'
+// import loading from "./components/toolTip";
+// Vue.use(loading);
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    SelectCity,
+    // OpTicket
+  },
+  data () {
+    return {
+      allData: [],
+    }
+  },
+  created () {
+    this.getInit();
+  },
+  methods: {
+    async getInit () {
+      // const res = await axios.get(`http://localhost:3000/Data`)
+      // console.log('app:', res);
+      // this.allData = res.data;
+      // this.$loading.show({
+      //   text: "拼命加载中"
+      // });
+
+    }
   }
 }
 </script>
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  margin: 0;
+}
+button {
+  background-color: #3366ff;
+  cursor: pointer;
 }
 </style>
