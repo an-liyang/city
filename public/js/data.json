@@ -1,0 +1,2398 @@
+{
+  
+  "Data": [
+    {
+      "provinceId": 1,
+      "provinceName": "安徽省",
+      "provinceLevel": 0,
+      "provinceSpellName": "anhui",
+      "firstLetter": "A",
+      "pState": "checked",
+      "cities": [
+        {
+          "cityId": 101,
+          "cityName": "合肥市",
+          "cityLevel": 2,
+          "citySpellName": "hefei",
+          "cState": "uncheked"
+        },
+        {
+          "cityId": 102,
+          "cityName": "安庆市",
+          "cityLevel": 3,
+          "citySpellName": "anqing"
+        },
+        {
+          "cityId": 103,
+          "cityName": "蚌埠市",
+          "cityLevel": 4,
+          "citySpellName": "bengbu"
+        },
+        {
+          "cityId": 104,
+          "cityName": "巢湖市",
+          "cityLevel": 4,
+          "citySpellName": "chaohu"
+        },
+        {
+          "cityId": 105,
+          "cityName": "池州市",
+          "cityLevel": 4,
+          "citySpellName": "chizhou"
+        },
+        {
+          "cityId": 106,
+          "cityName": "阜阳市",
+          "cityLevel": 3,
+          "citySpellName": "fy"
+        },
+        {
+          "cityId": 107,
+          "cityName": "淮北市",
+          "cityLevel": 4,
+          "citySpellName": "huaibei"
+        },
+        {
+          "cityId": 108,
+          "cityName": "淮南市",
+          "cityLevel": 4,
+          "citySpellName": "huainan"
+        },
+        {
+          "cityId": 109,
+          "cityName": "六安市",
+          "cityLevel": 3,
+          "citySpellName": "luan"
+        },
+        {
+          "cityId": 110,
+          "cityName": "马鞍山市",
+          "cityLevel": 4,
+          "citySpellName": "maanshan"
+        },
+        {
+          "cityId": 113,
+          "cityName": "铜陵市",
+          "cityLevel": 5,
+          "citySpellName": "tongling"
+        },
+        {
+          "cityId": 114,
+          "cityName": "芜湖市",
+          "cityLevel": 3,
+          "citySpellName": "wuhu"
+        },
+        {
+          "cityId": 115,
+          "cityName": "宣城市",
+          "cityLevel": 4,
+          "citySpellName": "xuancheng"
+        },
+        {
+          "cityId": 116,
+          "cityName": "滁州市",
+          "cityLevel": 4,
+          "citySpellName": "chuzhou"
+        },
+        {
+          "cityId": 118,
+          "cityName": "黄山市",
+          "cityLevel": 4,
+          "citySpellName": "huangshan"
+        },
+        {
+          "cityId": 120,
+          "cityName": "宿州市",
+          "cityLevel": 4,
+          "citySpellName": "sz"
+        },
+        {
+          "cityId": 125,
+          "cityName": "亳州市",
+          "cityLevel": 4,
+          "citySpellName": "bozhou"
+        }
+      ]
+    },
+    {
+      "provinceId": 2,
+      "provinceName": "北京",
+      "provinceLevel": 0,
+      "provinceSpellName": "beijing",
+      "firstLetter": "B",
+      "cities": [
+        {
+          "cityId": 201,
+          "cityName": "北京市",
+          "cityLevel": 1,
+          "citySpellName": "beijing"
+        }
+      ]
+    },
+    {
+      "provinceId": 3,
+      "provinceName": "福建省",
+      "provinceLevel": 0,
+      "provinceSpellName": "fujian",
+      "firstLetter": "F",
+      "cities": [
+        {
+          "cityId": 301,
+          "cityName": "福州市",
+          "cityLevel": 3,
+          "citySpellName": "fuzhou"
+        },
+        {
+          "cityId": 302,
+          "cityName": "厦门市",
+          "cityLevel": 3,
+          "citySpellName": "xiamen"
+        },
+        {
+          "cityId": 303,
+          "cityName": "龙岩市",
+          "cityLevel": 4,
+          "citySpellName": "longyan"
+        },
+        {
+          "cityId": 305,
+          "cityName": "漳州市",
+          "cityLevel": 4,
+          "citySpellName": "zhangzhou"
+        },
+        {
+          "cityId": 306,
+          "cityName": "莆田市",
+          "cityLevel": 4,
+          "citySpellName": "putian"
+        },
+        {
+          "cityId": 307,
+          "cityName": "泉州市",
+          "cityLevel": 3,
+          "citySpellName": "quanzhou"
+        },
+        {
+          "cityId": 314,
+          "cityName": "南平市",
+          "cityLevel": 4,
+          "citySpellName": "nanping"
+        },
+        {
+          "cityId": 315,
+          "cityName": "宁德市",
+          "cityLevel": 4,
+          "citySpellName": "ningde"
+        },
+        {
+          "cityId": 318,
+          "cityName": "三明市",
+          "cityLevel": 4,
+          "citySpellName": "sanming"
+        }
+      ]
+    },
+    {
+      "provinceId": 4,
+      "provinceName": "甘肃省",
+      "provinceLevel": 0,
+      "provinceSpellName": "gansu",
+      "firstLetter": "G",
+      "cities": [
+        {
+          "cityId": 401,
+          "cityName": "兰州市",
+          "cityLevel": 3,
+          "citySpellName": "lanzhou"
+        },
+        {
+          "cityId": 402,
+          "cityName": "定西市",
+          "cityLevel": 4,
+          "citySpellName": "dingxi"
+        },
+        {
+          "cityId": 405,
+          "cityName": "平凉市",
+          "cityLevel": 4,
+          "citySpellName": "pingliang"
+        },
+        {
+          "cityId": 409,
+          "cityName": "酒泉市",
+          "cityLevel": 4,
+          "citySpellName": "jiuquan"
+        },
+        {
+          "cityId": 410,
+          "cityName": "张掖市",
+          "cityLevel": 4,
+          "citySpellName": "zhangye"
+        },
+        {
+          "cityId": 411,
+          "cityName": "庆阳市",
+          "cityLevel": 4,
+          "citySpellName": "qingyang"
+        },
+        {
+          "cityId": 412,
+          "cityName": "武威市",
+          "cityLevel": 4,
+          "citySpellName": "wuwei"
+        },
+        {
+          "cityId": 415,
+          "cityName": "天水市",
+          "cityLevel": 4,
+          "citySpellName": "tianshui"
+        },
+        {
+          "cityId": 416,
+          "cityName": "嘉峪关市",
+          "cityLevel": 4,
+          "citySpellName": "jiayuguan"
+        },
+        {
+          "cityId": 417,
+          "cityName": "金昌市",
+          "cityLevel": 4,
+          "citySpellName": "jc"
+        },
+        {
+          "cityId": 418,
+          "cityName": "白银市",
+          "cityLevel": 4,
+          "citySpellName": "baiyin"
+        },
+        {
+          "cityId": 419,
+          "cityName": "玉门市",
+          "cityLevel": 4,
+          "citySpellName": "yumen"
+        },
+        {
+          "cityId": 421,
+          "cityName": "陇南市",
+          "cityLevel": 4,
+          "citySpellName": "longnan"
+        },
+        {
+          "cityId": 422,
+          "cityName": "甘南藏族自治州",
+          "cityLevel": 4,
+          "citySpellName": "gannanzangzuzizhizhou"
+        },
+        {
+          "cityId": 622900,
+          "cityName": "临夏回族自治州",
+          "cityLevel": 4,
+          "citySpellName": "linxiahuizuzizhizhou"
+        }
+      ]
+    },
+    {
+      "provinceId": 5,
+      "provinceName": "广东省",
+      "provinceLevel": 0,
+      "provinceSpellName": "guangdong",
+      "firstLetter": "G",
+      "cities": [
+        {
+          "cityId": 501,
+          "cityName": "广州市",
+          "cityLevel": 2,
+          "citySpellName": "guangzhou"
+        },
+        {
+          "cityId": 502,
+          "cityName": "深圳市",
+          "cityLevel": 2,
+          "citySpellName": "shenzhen"
+        },
+        {
+          "cityId": 503,
+          "cityName": "珠海市",
+          "cityLevel": 3,
+          "citySpellName": "zhuhai"
+        },
+        {
+          "cityId": 504,
+          "cityName": "东莞市",
+          "cityLevel": 2,
+          "citySpellName": "dongguan"
+        },
+        {
+          "cityId": 505,
+          "cityName": "中山市",
+          "cityLevel": 3,
+          "citySpellName": "zhongshan"
+        },
+        {
+          "cityId": 507,
+          "cityName": "汕头市",
+          "cityLevel": 4,
+          "citySpellName": "shantou"
+        },
+        {
+          "cityId": 510,
+          "cityName": "潮州市",
+          "cityLevel": 4,
+          "citySpellName": "chaozhou"
+        },
+        {
+          "cityId": 511,
+          "cityName": "韶关市",
+          "cityLevel": 4,
+          "citySpellName": "shaoguan"
+        },
+        {
+          "cityId": 513,
+          "cityName": "湛江市",
+          "cityLevel": 4,
+          "citySpellName": "zhanjiang"
+        },
+        {
+          "cityId": 514,
+          "cityName": "肇庆市",
+          "cityLevel": 4,
+          "citySpellName": "zhaoqing"
+        },
+        {
+          "cityId": 515,
+          "cityName": "茂名市",
+          "cityLevel": 4,
+          "citySpellName": "maoming"
+        },
+        {
+          "cityId": 516,
+          "cityName": "梅州市",
+          "cityLevel": 4,
+          "citySpellName": "meizhou"
+        },
+        {
+          "cityId": 518,
+          "cityName": "佛山市",
+          "cityLevel": 2,
+          "citySpellName": "foshan"
+        },
+        {
+          "cityId": 520,
+          "cityName": "惠州市",
+          "cityLevel": 3,
+          "citySpellName": "huizhou"
+        },
+        {
+          "cityId": 521,
+          "cityName": "江门市",
+          "cityLevel": 3,
+          "citySpellName": "jiangmen"
+        },
+        {
+          "cityId": 522,
+          "cityName": "揭阳市",
+          "cityLevel": 4,
+          "citySpellName": "jieyang"
+        },
+        {
+          "cityId": 524,
+          "cityName": "清远市",
+          "cityLevel": 4,
+          "citySpellName": "qingyuan"
+        },
+        {
+          "cityId": 528,
+          "cityName": "云浮市",
+          "cityLevel": 5,
+          "citySpellName": "yunfu"
+        },
+        {
+          "cityId": 532,
+          "cityName": "阳江市",
+          "cityLevel": 4,
+          "citySpellName": "yangjiang"
+        },
+        {
+          "cityId": 535,
+          "cityName": "河源市",
+          "cityLevel": 4,
+          "citySpellName": "heyuan"
+        },
+        {
+          "cityId": 552,
+          "cityName": "汕尾市",
+          "cityLevel": 5,
+          "citySpellName": "shanwei"
+        }
+      ]
+    },
+    {
+      "provinceId": 6,
+      "provinceName": "广西壮族自治区",
+      "provinceLevel": 0,
+      "provinceSpellName": "guangxi",
+      "firstLetter": "G",
+      "cities": [
+        {
+          "cityId": 601,
+          "cityName": "南宁市",
+          "cityLevel": 2,
+          "citySpellName": "nanning"
+        },
+        {
+          "cityId": 602,
+          "cityName": "柳州市",
+          "cityLevel": 3,
+          "citySpellName": "liuzhou"
+        },
+        {
+          "cityId": 603,
+          "cityName": "桂林市",
+          "cityLevel": 3,
+          "citySpellName": "guilin"
+        },
+        {
+          "cityId": 604,
+          "cityName": "北海市",
+          "cityLevel": 4,
+          "citySpellName": "beihai"
+        },
+        {
+          "cityId": 605,
+          "cityName": "百色市",
+          "cityLevel": 4,
+          "citySpellName": "baise"
+        },
+        {
+          "cityId": 606,
+          "cityName": "贺州市",
+          "cityLevel": 4,
+          "citySpellName": "hezhou"
+        },
+        {
+          "cityId": 607,
+          "cityName": "河池市",
+          "cityLevel": 4,
+          "citySpellName": "hechi"
+        },
+        {
+          "cityId": 608,
+          "cityName": "贵港市",
+          "cityLevel": 4,
+          "citySpellName": "guigang"
+        },
+        {
+          "cityId": 610,
+          "cityName": "玉林市",
+          "cityLevel": 4,
+          "citySpellName": "yulin"
+        },
+        {
+          "cityId": 612,
+          "cityName": "钦州市",
+          "cityLevel": 4,
+          "citySpellName": "qinzhou"
+        },
+        {
+          "cityId": 613,
+          "cityName": "梧州市",
+          "cityLevel": 4,
+          "citySpellName": "wuzhou"
+        },
+        {
+          "cityId": 615,
+          "cityName": "防城港市",
+          "cityLevel": 4,
+          "citySpellName": "fangchenggang"
+        },
+        {
+          "cityId": 619,
+          "cityName": "来宾市",
+          "cityLevel": 4,
+          "citySpellName": "laibin"
+        },
+        {
+          "cityId": 621,
+          "cityName": "崇左市",
+          "cityLevel": 4,
+          "citySpellName": "chongzuo"
+        }
+      ]
+    },
+    {
+      "provinceId": 7,
+      "provinceName": "贵州省",
+      "provinceLevel": 0,
+      "provinceSpellName": "guizhou",
+      "firstLetter": "G",
+      "cities": [
+        {
+          "cityId": 701,
+          "cityName": "贵阳市",
+          "cityLevel": 2,
+          "citySpellName": "guiyang"
+        },
+        {
+          "cityId": 702,
+          "cityName": "遵义市",
+          "cityLevel": 3,
+          "citySpellName": "zunyi"
+        },
+        {
+          "cityId": 705,
+          "cityName": "安顺市",
+          "cityLevel": 4,
+          "citySpellName": "anshun"
+        },
+        {
+          "cityId": 708,
+          "cityName": "六盘水市",
+          "cityLevel": 4,
+          "citySpellName": "liupanshui"
+        },
+        {
+          "cityId": 714,
+          "cityName": "黔东南苗族侗族自治州",
+          "cityLevel": 4,
+          "citySpellName": "qiandongnanmiaozudongzuzizhizhou"
+        },
+        {
+          "cityId": 715,
+          "cityName": "黔南布依族苗族自治州",
+          "cityLevel": 4,
+          "citySpellName": "qiannanbuyizumiaozuzizhizhou"
+        },
+        {
+          "cityId": 717,
+          "cityName": "毕节地区",
+          "cityLevel": 4,
+          "citySpellName": "bijiediqu"
+        },
+        {
+          "cityId": 718,
+          "cityName": "黔西南布依族苗族自治州",
+          "cityLevel": 4,
+          "citySpellName": "qianxinanbuyizumiaozuzizhizhou"
+        },
+        {
+          "cityId": 719,
+          "cityName": "铜仁地区",
+          "cityLevel": 4,
+          "citySpellName": "tongrendiqu"
+        }
+      ]
+    },
+    {
+      "provinceId": 8,
+      "provinceName": "海南省",
+      "provinceLevel": 0,
+      "provinceSpellName": "hainan",
+      "firstLetter": "H",
+      "cities": [
+        {
+          "cityId": 801,
+          "cityName": "海口市",
+          "cityLevel": 3,
+          "citySpellName": "haikou"
+        },
+        {
+          "cityId": 803,
+          "cityName": "三亚市",
+          "cityLevel": 4,
+          "citySpellName": "sanya"
+        },
+        {
+          "cityId": 810,
+          "cityName": "琼北",
+          "cityLevel": 4,
+          "citySpellName": "qiongbeidiqu"
+        },
+        {
+          "cityId": 811,
+          "cityName": "琼南",
+          "cityLevel": 4,
+          "citySpellName": "qiongnandiqu"
+        }
+      ]
+    },
+    {
+      "provinceId": 9,
+      "provinceName": "河北省",
+      "provinceLevel": 0,
+      "provinceSpellName": "hebei",
+      "firstLetter": "H",
+      "cities": [
+        {
+          "cityId": 901,
+          "cityName": "石家庄市",
+          "cityLevel": 2,
+          "citySpellName": "shijiazhuang"
+        },
+        {
+          "cityId": 902,
+          "cityName": "唐山市",
+          "cityLevel": 3,
+          "citySpellName": "tangshan"
+        },
+        {
+          "cityId": 903,
+          "cityName": "邢台市",
+          "cityLevel": 3,
+          "citySpellName": "xingtai"
+        },
+        {
+          "cityId": 905,
+          "cityName": "秦皇岛市",
+          "cityLevel": 3,
+          "citySpellName": "qinhuangdao"
+        },
+        {
+          "cityId": 906,
+          "cityName": "廊坊市",
+          "cityLevel": 3,
+          "citySpellName": "langfang"
+        },
+        {
+          "cityId": 907,
+          "cityName": "邯郸市",
+          "cityLevel": 3,
+          "citySpellName": "handan"
+        },
+        {
+          "cityId": 908,
+          "cityName": "衡水市",
+          "cityLevel": 3,
+          "citySpellName": "hengshui"
+        },
+        {
+          "cityId": 909,
+          "cityName": "沧州市",
+          "cityLevel": 3,
+          "citySpellName": "cangzhou"
+        },
+        {
+          "cityId": 910,
+          "cityName": "保定市",
+          "cityLevel": 3,
+          "citySpellName": "baoding"
+        },
+        {
+          "cityId": 911,
+          "cityName": "张家口市",
+          "cityLevel": 3,
+          "citySpellName": "zhangjiakou"
+        },
+        {
+          "cityId": 912,
+          "cityName": "承德市",
+          "cityLevel": 3,
+          "citySpellName": "chengde"
+        }
+      ]
+    },
+    {
+      "provinceId": 10,
+      "provinceName": "河南省",
+      "provinceLevel": 0,
+      "provinceSpellName": "henan",
+      "firstLetter": "H",
+      "cities": [
+        {
+          "cityId": 1001,
+          "cityName": "郑州市",
+          "cityLevel": 2,
+          "citySpellName": "zhengzhou"
+        },
+        {
+          "cityId": 1002,
+          "cityName": "洛阳市",
+          "cityLevel": 3,
+          "citySpellName": "luoyang"
+        },
+        {
+          "cityId": 1003,
+          "cityName": "周口市",
+          "cityLevel": 4,
+          "citySpellName": "zhoukou"
+        },
+        {
+          "cityId": 1004,
+          "cityName": "信阳市",
+          "cityLevel": 4,
+          "citySpellName": "xinyang"
+        },
+        {
+          "cityId": 1005,
+          "cityName": "新乡市",
+          "cityLevel": 3,
+          "citySpellName": "xinxiang"
+        },
+        {
+          "cityId": 1006,
+          "cityName": "商丘市",
+          "cityLevel": 3,
+          "citySpellName": "shangqiu"
+        },
+        {
+          "cityId": 1007,
+          "cityName": "三门峡市",
+          "cityLevel": 4,
+          "citySpellName": "sanmenxia"
+        },
+        {
+          "cityId": 1008,
+          "cityName": "濮阳市",
+          "cityLevel": 4,
+          "citySpellName": "puyang"
+        },
+        {
+          "cityId": 1009,
+          "cityName": "南阳市",
+          "cityLevel": 3,
+          "citySpellName": "nanyang"
+        },
+        {
+          "cityId": 1010,
+          "cityName": "漯河市",
+          "cityLevel": 4,
+          "citySpellName": "luohe"
+        },
+        {
+          "cityId": 1011,
+          "cityName": "焦作市",
+          "cityLevel": 4,
+          "citySpellName": "jiaozuo"
+        },
+        {
+          "cityId": 1013,
+          "cityName": "开封市",
+          "cityLevel": 4,
+          "citySpellName": "kaifeng"
+        },
+        {
+          "cityId": 1014,
+          "cityName": "安阳市",
+          "cityLevel": 3,
+          "citySpellName": "anyang"
+        },
+        {
+          "cityId": 1016,
+          "cityName": "鹤壁市",
+          "cityLevel": 4,
+          "citySpellName": "hebi"
+        },
+        {
+          "cityId": 1018,
+          "cityName": "平顶山市",
+          "cityLevel": 3,
+          "citySpellName": "pingdingshan"
+        },
+        {
+          "cityId": 1021,
+          "cityName": "驻马店市",
+          "cityLevel": 4,
+          "citySpellName": "zhumadian"
+        },
+        {
+          "cityId": 1023,
+          "cityName": "许昌市",
+          "cityLevel": 3,
+          "citySpellName": "xuchang"
+        }
+      ]
+    },
+    {
+      "provinceId": 11,
+      "provinceName": "黑龙江省",
+      "provinceLevel": 0,
+      "provinceSpellName": "heilongjiang",
+      "firstLetter": "H",
+      "cities": [
+        {
+          "cityId": 1101,
+          "cityName": "哈尔滨市",
+          "cityLevel": 2,
+          "citySpellName": "haerbin"
+        },
+        {
+          "cityId": 1102,
+          "cityName": "大庆市",
+          "cityLevel": 3,
+          "citySpellName": "daqing"
+        },
+        {
+          "cityId": 1103,
+          "cityName": "齐齐哈尔市",
+          "cityLevel": 3,
+          "citySpellName": "qiqihaer"
+        },
+        {
+          "cityId": 1104,
+          "cityName": "鹤岗市",
+          "cityLevel": 4,
+          "citySpellName": "hegang"
+        },
+        {
+          "cityId": 1106,
+          "cityName": "佳木斯市",
+          "cityLevel": 4,
+          "citySpellName": "jiamusi"
+        },
+        {
+          "cityId": 1107,
+          "cityName": "鸡西市",
+          "cityLevel": 4,
+          "citySpellName": "jixi"
+        },
+        {
+          "cityId": 1108,
+          "cityName": "牡丹江市",
+          "cityLevel": 4,
+          "citySpellName": "mudanjiang"
+        },
+        {
+          "cityId": 1109,
+          "cityName": "七台河市",
+          "cityLevel": 4,
+          "citySpellName": "qitaihe"
+        },
+        {
+          "cityId": 1112,
+          "cityName": "伊春市",
+          "cityLevel": 5,
+          "citySpellName": "yc"
+        },
+        {
+          "cityId": 1113,
+          "cityName": "黑河市",
+          "cityLevel": 4,
+          "citySpellName": "heihe"
+        },
+        {
+          "cityId": 1123,
+          "cityName": "双鸭山市",
+          "cityLevel": 4,
+          "citySpellName": "shuangyashan"
+        },
+        {
+          "cityId": 1131,
+          "cityName": "绥化市",
+          "cityLevel": 4,
+          "citySpellName": "suihua"
+        },
+        {
+          "cityId": 1136,
+          "cityName": "大兴安岭地区",
+          "cityLevel": 5,
+          "citySpellName": "daxinganlingdiqu"
+        }
+      ]
+    },
+    {
+      "provinceId": 12,
+      "provinceName": "湖北省",
+      "provinceLevel": 0,
+      "provinceSpellName": "hubei",
+      "firstLetter": "H",
+      "cities": [
+        {
+          "cityId": 1201,
+          "cityName": "武汉市",
+          "cityLevel": 2,
+          "citySpellName": "wuhan"
+        },
+        {
+          "cityId": 1202,
+          "cityName": "十堰市",
+          "cityLevel": 3,
+          "citySpellName": "shiyan"
+        },
+        {
+          "cityId": 1203,
+          "cityName": "襄阳市",
+          "cityLevel": 3,
+          "citySpellName": "xiangyang"
+        },
+        {
+          "cityId": 1204,
+          "cityName": "随州市",
+          "cityLevel": 4,
+          "citySpellName": "suizhou"
+        },
+        {
+          "cityId": 1205,
+          "cityName": "仙桃市",
+          "cityLevel": 5,
+          "citySpellName": "xiantao"
+        },
+        {
+          "cityId": 1207,
+          "cityName": "宜昌市",
+          "cityLevel": 3,
+          "citySpellName": "yichang"
+        },
+        {
+          "cityId": 1208,
+          "cityName": "黄石市",
+          "cityLevel": 4,
+          "citySpellName": "huangshi"
+        },
+        {
+          "cityId": 1209,
+          "cityName": "荆门市",
+          "cityLevel": 4,
+          "citySpellName": "jingmen"
+        },
+        {
+          "cityId": 1210,
+          "cityName": "荆州市",
+          "cityLevel": 3,
+          "citySpellName": "jingzhou"
+        },
+        {
+          "cityId": 1216,
+          "cityName": "鄂州市",
+          "cityLevel": 5,
+          "citySpellName": "ezhou"
+        },
+        {
+          "cityId": 1217,
+          "cityName": "咸宁市",
+          "cityLevel": 4,
+          "citySpellName": "xianning"
+        },
+        {
+          "cityId": 1229,
+          "cityName": "孝感市",
+          "cityLevel": 4,
+          "citySpellName": "xiaogan"
+        },
+        {
+          "cityId": 422800,
+          "cityName": "恩施土家族苗族自治州",
+          "cityLevel": 4,
+          "citySpellName": "enshitujiazumiaozuzizhizhou"
+        },
+        {
+          "cityId": 1236,
+          "cityName": "黄冈市",
+          "cityLevel": 4,
+          "citySpellName": "huanggang"
+        }
+      ]
+    },
+    {
+      "provinceId": 13,
+      "provinceName": "湖南省",
+      "provinceLevel": 0,
+      "provinceSpellName": "hunan",
+      "firstLetter": "H",
+      "cities": [
+        {
+          "cityId": 1301,
+          "cityName": "长沙市",
+          "cityLevel": 2,
+          "citySpellName": "changsha"
+        },
+        {
+          "cityId": 1302,
+          "cityName": "郴州市",
+          "cityLevel": 4,
+          "citySpellName": "chenzhou"
+        },
+        {
+          "cityId": 1303,
+          "cityName": "常德市",
+          "cityLevel": 3,
+          "citySpellName": "changde"
+        },
+        {
+          "cityId": 1304,
+          "cityName": "衡阳市",
+          "cityLevel": 3,
+          "citySpellName": "hengyang"
+        },
+        {
+          "cityId": 1305,
+          "cityName": "怀化市",
+          "cityLevel": 4,
+          "citySpellName": "huaihua"
+        },
+        {
+          "cityId": 1306,
+          "cityName": "娄底市",
+          "cityLevel": 4,
+          "citySpellName": "loudi"
+        },
+        {
+          "cityId": 1307,
+          "cityName": "株洲市",
+          "cityLevel": 3,
+          "citySpellName": "zhuzhou"
+        },
+        {
+          "cityId": 1308,
+          "cityName": "岳阳市",
+          "cityLevel": 3,
+          "citySpellName": "yueyang"
+        },
+        {
+          "cityId": 1309,
+          "cityName": "湘潭市",
+          "cityLevel": 3,
+          "citySpellName": "xiangtan"
+        },
+        {
+          "cityId": 1310,
+          "cityName": "邵阳市",
+          "cityLevel": 4,
+          "citySpellName": "shaoyang"
+        },
+        {
+          "cityId": 1312,
+          "cityName": "永州市",
+          "cityLevel": 4,
+          "citySpellName": "yongzhou"
+        },
+        {
+          "cityId": 1313,
+          "cityName": "益阳市",
+          "cityLevel": 4,
+          "citySpellName": "yiyang"
+        },
+        {
+          "cityId": 1315,
+          "cityName": "张家界市",
+          "cityLevel": 5,
+          "citySpellName": "zhangjiajie"
+        },
+        {
+          "cityId": 1333,
+          "cityName": "湘西土家族苗族自治州",
+          "cityLevel": 5,
+          "citySpellName": "xiangxitujiazumiaozuzizhizhou"
+        }
+      ]
+    },
+    {
+      "provinceId": 14,
+      "provinceName": "吉林省",
+      "provinceLevel": 0,
+      "provinceSpellName": "jl",
+      "firstLetter": "J",
+      "cities": [
+        {
+          "cityId": 1401,
+          "cityName": "长春市",
+          "cityLevel": 2,
+          "citySpellName": "changchun"
+        },
+        {
+          "cityId": 1402,
+          "cityName": "吉林市",
+          "cityLevel": 3,
+          "citySpellName": "jilin"
+        },
+        {
+          "cityId": 1403,
+          "cityName": "通化市",
+          "cityLevel": 4,
+          "citySpellName": "tonghua"
+        },
+        {
+          "cityId": 1405,
+          "cityName": "辽源市",
+          "cityLevel": 5,
+          "citySpellName": "liaoyuan"
+        },
+        {
+          "cityId": 1616,
+          "cityName": "四平市",
+          "cityLevel": 4,
+          "citySpellName": "siping"
+        },
+        {
+          "cityId": 1406,
+          "cityName": "白山市",
+          "cityLevel": 5,
+          "citySpellName": "baishan"
+        },
+        {
+          "cityId": 1412,
+          "cityName": "白城市",
+          "cityLevel": 4,
+          "citySpellName": "baicheng"
+        },
+        {
+          "cityId": 1425,
+          "cityName": "松原市",
+          "cityLevel": 4,
+          "citySpellName": "songyuan"
+        },
+        {
+          "cityId": 1428,
+          "cityName": "延边朝鲜族自治州",
+          "cityLevel": 4,
+          "citySpellName": "yanbianchaoxianzuzizhizhou"
+        }
+      ]
+    },
+    {
+      "provinceId": 15,
+      "provinceName": "江苏省",
+      "provinceLevel": 0,
+      "provinceSpellName": "jiangsu",
+      "firstLetter": "J",
+      "cities": [
+        {
+          "cityId": 1501,
+          "cityName": "南京市",
+          "cityLevel": 2,
+          "citySpellName": "nanjing"
+        },
+        {
+          "cityId": 1502,
+          "cityName": "苏州市",
+          "cityLevel": 2,
+          "citySpellName": "suzhou"
+        },
+        {
+          "cityId": 1503,
+          "cityName": "无锡市",
+          "cityLevel": 2,
+          "citySpellName": "wuxi"
+        },
+        {
+          "cityId": 1505,
+          "cityName": "常州市",
+          "cityLevel": 3,
+          "citySpellName": "changzhou"
+        },
+        {
+          "cityId": 1507,
+          "cityName": "淮安市",
+          "cityLevel": 4,
+          "citySpellName": "huaian"
+        },
+        {
+          "cityId": 1509,
+          "cityName": "昆山市",
+          "cityLevel": 3,
+          "citySpellName": "kunshan"
+        },
+        {
+          "cityId": 1510,
+          "cityName": "连云港市",
+          "cityLevel": 4,
+          "citySpellName": "lianyungang"
+        },
+        {
+          "cityId": 1511,
+          "cityName": "南通市",
+          "cityLevel": 2,
+          "citySpellName": "nantong"
+        },
+        {
+          "cityId": 1512,
+          "cityName": "盐城市",
+          "cityLevel": 4,
+          "citySpellName": "yancheng"
+        },
+        {
+          "cityId": 1513,
+          "cityName": "扬州市",
+          "cityLevel": 3,
+          "citySpellName": "yangzhou"
+        },
+        {
+          "cityId": 1514,
+          "cityName": "张家港市",
+          "cityLevel": 3,
+          "citySpellName": "zhangjiagang"
+        },
+        {
+          "cityId": 1515,
+          "cityName": "镇江市",
+          "cityLevel": 4,
+          "citySpellName": "zhenjiang"
+        },
+        {
+          "cityId": 1517,
+          "cityName": "泰州市",
+          "cityLevel": 3,
+          "citySpellName": "taizhou"
+        },
+        {
+          "cityId": 1518,
+          "cityName": "徐州市",
+          "cityLevel": 3,
+          "citySpellName": "xuzhou"
+        },
+        {
+          "cityId": 1520,
+          "cityName": "宿迁市",
+          "cityLevel": 5,
+          "citySpellName": "suqian"
+        },
+        {
+          "cityId": 1521,
+          "cityName": "太仓市",
+          "cityLevel": 3,
+          "citySpellName": "taicang"
+        }
+      ]
+    },
+    {
+      "provinceId": 16,
+      "provinceName": "江西省",
+      "provinceLevel": 0,
+      "provinceSpellName": "jiangxi",
+      "firstLetter": "J",
+      "cities": [
+        {
+          "cityId": 1601,
+          "cityName": "南昌市",
+          "cityLevel": 2,
+          "citySpellName": "nanchang"
+        },
+        {
+          "cityId": 1602,
+          "cityName": "上饶市",
+          "cityLevel": 3,
+          "citySpellName": "shangrao"
+        },
+        {
+          "cityId": 1603,
+          "cityName": "萍乡市",
+          "cityLevel": 4,
+          "citySpellName": "pingxiang"
+        },
+        {
+          "cityId": 1604,
+          "cityName": "新余市",
+          "cityLevel": 4,
+          "citySpellName": "xinyu"
+        },
+        {
+          "cityId": 1605,
+          "cityName": "宜春市",
+          "cityLevel": 3,
+          "citySpellName": "yichun"
+        },
+        {
+          "cityId": 1606,
+          "cityName": "九江市",
+          "cityLevel": 3,
+          "citySpellName": "jiujiang"
+        },
+        {
+          "cityId": 1607,
+          "cityName": "赣州市",
+          "cityLevel": 3,
+          "citySpellName": "ganzhou"
+        },
+        {
+          "cityId": 1609,
+          "cityName": "吉安市",
+          "cityLevel": 4,
+          "citySpellName": "jian"
+        },
+        {
+          "cityId": 1612,
+          "cityName": "景德镇市",
+          "cityLevel": 5,
+          "citySpellName": "jingdezhen"
+        },
+        {
+          "cityId": 1613,
+          "cityName": "抚州市",
+          "cityLevel": 4,
+          "citySpellName": "jxfz"
+        },
+        {
+          "cityId": 1615,
+          "cityName": "鹰潭市",
+          "cityLevel": 5,
+          "citySpellName": "yingtan"
+        }
+      ]
+    },
+    {
+      "provinceId": 17,
+      "provinceName": "辽宁省",
+      "provinceLevel": 0,
+      "provinceSpellName": "liaoning",
+      "firstLetter": "L",
+      "cities": [
+        {
+          "cityId": 1701,
+          "cityName": "沈阳市",
+          "cityLevel": 2,
+          "citySpellName": "shenyang"
+        },
+        {
+          "cityId": 1702,
+          "cityName": "丹东市",
+          "cityLevel": 4,
+          "citySpellName": "dandong"
+        },
+        {
+          "cityId": 1703,
+          "cityName": "抚顺市",
+          "cityLevel": 4,
+          "citySpellName": "fushun"
+        },
+        {
+          "cityId": 1704,
+          "cityName": "阜新市",
+          "cityLevel": 4,
+          "citySpellName": "fuxin"
+        },
+        {
+          "cityId": 1705,
+          "cityName": "葫芦岛市",
+          "cityLevel": 4,
+          "citySpellName": "huludao"
+        },
+        {
+          "cityId": 1707,
+          "cityName": "朝阳市",
+          "cityLevel": 4,
+          "citySpellName": "chaoyang"
+        },
+        {
+          "cityId": 1708,
+          "cityName": "大连市",
+          "cityLevel": 3,
+          "citySpellName": "dalian"
+        },
+        {
+          "cityId": 1709,
+          "cityName": "本溪市",
+          "cityLevel": 4,
+          "citySpellName": "benxi"
+        },
+        {
+          "cityId": 1710,
+          "cityName": "鞍山市",
+          "cityLevel": 3,
+          "citySpellName": "anshan"
+        },
+        {
+          "cityId": 1711,
+          "cityName": "锦州市",
+          "cityLevel": 4,
+          "citySpellName": "jz"
+        },
+        {
+          "cityId": 1713,
+          "cityName": "辽阳市",
+          "cityLevel": 4,
+          "citySpellName": "liaoyang"
+        },
+        {
+          "cityId": 1714,
+          "cityName": "营口市",
+          "cityLevel": 4,
+          "citySpellName": "yingkou"
+        },
+        {
+          "cityId": 1716,
+          "cityName": "盘锦市",
+          "cityLevel": 4,
+          "citySpellName": "panjin"
+        },
+        {
+          "cityId": 1717,
+          "cityName": "铁岭市",
+          "cityLevel": 4,
+          "citySpellName": "tieling"
+        }
+      ]
+    },
+    {
+      "provinceId": 18,
+      "provinceName": "内蒙古自治区",
+      "provinceLevel": 0,
+      "provinceSpellName": "neimenggu",
+      "firstLetter": "N",
+      "cities": [
+        {
+          "cityId": 1801,
+          "cityName": "呼和浩特市",
+          "cityLevel": 3,
+          "citySpellName": "huhehaote"
+        },
+        {
+          "cityId": 1802,
+          "cityName": "包头市",
+          "cityLevel": 3,
+          "citySpellName": "baotou"
+        },
+        {
+          "cityId": 1803,
+          "cityName": "赤峰市",
+          "cityLevel": 3,
+          "citySpellName": "chifeng"
+        },
+        {
+          "cityId": 1804,
+          "cityName": "通辽市",
+          "cityLevel": 4,
+          "citySpellName": "tongliao"
+        },
+        {
+          "cityId": 1805,
+          "cityName": "乌海市",
+          "cityLevel": 4,
+          "citySpellName": "wuhai"
+        },
+        {
+          "cityId": 1808,
+          "cityName": "鄂尔多斯市",
+          "cityLevel": 3,
+          "citySpellName": "eerduosi"
+        },
+        {
+          "cityId": 1812,
+          "cityName": "呼伦贝尔市",
+          "cityLevel": 4,
+          "citySpellName": "hulunbeier"
+        },
+        {
+          "cityId": 1814,
+          "cityName": "兴安盟",
+          "cityLevel": 4,
+          "citySpellName": "xinganmeng"
+        },
+        {
+          "cityId": 1824,
+          "cityName": "巴彦淖尔市",
+          "cityLevel": 4,
+          "citySpellName": "bayannaoer"
+        },
+        {
+          "cityId": 1825,
+          "cityName": "乌兰察布市",
+          "cityLevel": 4,
+          "citySpellName": "wulanchabu"
+        },
+        {
+          "cityId": 1829,
+          "cityName": "锡林郭勒盟",
+          "cityLevel": 4,
+          "citySpellName": "xilinguolemeng"
+        },
+        {
+          "cityId": 1830,
+          "cityName": "阿拉善盟",
+          "cityLevel": 4,
+          "citySpellName": "alashanmeng"
+        }
+      ]
+    },
+    {
+      "provinceId": 19,
+      "provinceName": "宁夏回族自治区",
+      "provinceLevel": 0,
+      "provinceSpellName": "ningxia",
+      "firstLetter": "N",
+      "cities": [
+        {
+          "cityId": 1901,
+          "cityName": "银川市",
+          "cityLevel": 3,
+          "citySpellName": "yinchuan"
+        },
+        {
+          "cityId": 1902,
+          "cityName": "吴忠市",
+          "cityLevel": 4,
+          "citySpellName": "wuzhong"
+        },
+        {
+          "cityId": 1903,
+          "cityName": "固原市",
+          "cityLevel": 4,
+          "citySpellName": "guyuan"
+        },
+        {
+          "cityId": 1905,
+          "cityName": "石嘴山市",
+          "cityLevel": 4,
+          "citySpellName": "shizuishan"
+        },
+        {
+          "cityId": 1907,
+          "cityName": "中卫市",
+          "cityLevel": 4,
+          "citySpellName": "zhongwei"
+        }
+      ]
+    },
+    {
+      "provinceId": 20,
+      "provinceName": "青海省",
+      "provinceLevel": 0,
+      "provinceSpellName": "qinghai",
+      "firstLetter": "Q",
+      "cities": [
+        {
+          "cityId": 2001,
+          "cityName": "西宁市",
+          "cityLevel": 3,
+          "citySpellName": "xining"
+        },
+        {
+          "cityId": 2023,
+          "cityName": "海北藏族自治州",
+          "cityLevel": 4,
+          "citySpellName": "haibeicangzuzizhizhou"
+        },
+        {
+          "cityId": 2024,
+          "cityName": "黄南藏族自治州",
+          "cityLevel": 4,
+          "citySpellName": "huangnancangzuzizhizhou"
+        },
+        {
+          "cityId": 2025,
+          "cityName": "果洛藏族自治州",
+          "cityLevel": 4,
+          "citySpellName": "guoluocangzuzizhizhou"
+        },
+        {
+          "cityId": 2026,
+          "cityName": "玉树藏族自治州",
+          "cityLevel": 4,
+          "citySpellName": "yushucangzuzizhizhou"
+        },
+        {
+          "cityId": 2027,
+          "cityName": "海西蒙古族藏族自治州",
+          "cityLevel": 4,
+          "citySpellName": "haiximengguzucangzuzizhizhou"
+        },
+        {
+          "cityId": 2029,
+          "cityName": "海东地区",
+          "cityLevel": 4,
+          "citySpellName": "haidongdiqu"
+        },
+        {
+          "cityId": 2030,
+          "cityName": "海南藏族自治州",
+          "cityLevel": 4,
+          "citySpellName": "hainanzangzuzizhizhou"
+        }
+      ]
+    },
+    {
+      "provinceId": 21,
+      "provinceName": "山东省",
+      "provinceLevel": 0,
+      "provinceSpellName": "shandong",
+      "firstLetter": "S",
+      "cities": [
+        {
+          "cityId": 2101,
+          "cityName": "济南市",
+          "cityLevel": 2,
+          "citySpellName": "jinan"
+        },
+        {
+          "cityId": 2102,
+          "cityName": "青岛市",
+          "cityLevel": 2,
+          "citySpellName": "qingdao"
+        },
+        {
+          "cityId": 2103,
+          "cityName": "烟台市",
+          "cityLevel": 3,
+          "citySpellName": "yantai"
+        },
+        {
+          "cityId": 2104,
+          "cityName": "威海市",
+          "cityLevel": 3,
+          "citySpellName": "weihai"
+        },
+        {
+          "cityId": 2105,
+          "cityName": "潍坊市",
+          "cityLevel": 3,
+          "citySpellName": "weifang"
+        },
+        {
+          "cityId": 2106,
+          "cityName": "泰安市",
+          "cityLevel": 3,
+          "citySpellName": "taian"
+        },
+        {
+          "cityId": 2107,
+          "cityName": "枣庄市",
+          "cityLevel": 3,
+          "citySpellName": "zaozhuang"
+        },
+        {
+          "cityId": 2109,
+          "cityName": "淄博市",
+          "cityLevel": 3,
+          "citySpellName": "zibo"
+        },
+        {
+          "cityId": 2110,
+          "cityName": "东营市",
+          "cityLevel": 3,
+          "citySpellName": "dongying"
+        },
+        {
+          "cityId": 2112,
+          "cityName": "菏泽市",
+          "cityLevel": 3,
+          "citySpellName": "heze"
+        },
+        {
+          "cityId": 2113,
+          "cityName": "滨州市",
+          "cityLevel": 3,
+          "citySpellName": "binzhou"
+        },
+        {
+          "cityId": 2114,
+          "cityName": "聊城市",
+          "cityLevel": 3,
+          "citySpellName": "liaocheng"
+        },
+        {
+          "cityId": 2117,
+          "cityName": "临沂市",
+          "cityLevel": 3,
+          "citySpellName": "linyi"
+        },
+        {
+          "cityId": 2118,
+          "cityName": "济宁市",
+          "cityLevel": 3,
+          "citySpellName": "jining"
+        },
+        {
+          "cityId": 2120,
+          "cityName": "日照市",
+          "cityLevel": 3,
+          "citySpellName": "rizhao"
+        },
+        {
+          "cityId": 2126,
+          "cityName": "烟威",
+          "cityLevel": null,
+          "citySpellName": "yanwei"
+        },
+        {
+          "cityId": 2132,
+          "cityName": "莱芜市",
+          "cityLevel": 4,
+          "citySpellName": "laiwu"
+        },
+        {
+          "cityId": 1015,
+          "cityName": "德州市",
+          "cityLevel": 3,
+          "citySpellName": "dezhou"
+        }
+      ]
+    },
+    {
+      "provinceId": 22,
+      "provinceName": "山西省",
+      "provinceLevel": 0,
+      "provinceSpellName": "shanxi",
+      "firstLetter": "S",
+      "cities": [
+        {
+          "cityId": 2201,
+          "cityName": "太原市",
+          "cityLevel": 2,
+          "citySpellName": "taiyuan"
+        },
+        {
+          "cityId": 2202,
+          "cityName": "大同市",
+          "cityLevel": 3,
+          "citySpellName": "datong"
+        },
+        {
+          "cityId": 2203,
+          "cityName": "晋城市",
+          "cityLevel": 4,
+          "citySpellName": "jincheng"
+        },
+        {
+          "cityId": 2204,
+          "cityName": "晋中市",
+          "cityLevel": 4,
+          "citySpellName": "jinzhong"
+        },
+        {
+          "cityId": 2205,
+          "cityName": "临汾市",
+          "cityLevel": 4,
+          "citySpellName": "linfen"
+        },
+        {
+          "cityId": 2206,
+          "cityName": "长治市",
+          "cityLevel": 3,
+          "citySpellName": "changzhi"
+        },
+        {
+          "cityId": 2207,
+          "cityName": "运城市",
+          "cityLevel": 3,
+          "citySpellName": "yuncheng"
+        },
+        {
+          "cityId": 2210,
+          "cityName": "忻州市",
+          "cityLevel": 4,
+          "citySpellName": "xinzhou"
+        },
+        {
+          "cityId": 2218,
+          "cityName": "阳泉市",
+          "cityLevel": 4,
+          "citySpellName": "yangquan"
+        },
+        {
+          "cityId": 2219,
+          "cityName": "朔州市",
+          "cityLevel": 4,
+          "citySpellName": "shuozhou"
+        },
+        {
+          "cityId": 2227,
+          "cityName": "吕梁市",
+          "cityLevel": 4,
+          "citySpellName": "lvliang"
+        }
+      ]
+    },
+    {
+      "provinceId": 23,
+      "provinceName": "陕西省",
+      "provinceLevel": 0,
+      "provinceSpellName": "shaanxi",
+      "firstLetter": "S",
+      "cities": [
+        {
+          "cityId": 2301,
+          "cityName": "西安市",
+          "cityLevel": 2,
+          "citySpellName": "xian"
+        },
+        {
+          "cityId": 2302,
+          "cityName": "咸阳市",
+          "cityLevel": 4,
+          "citySpellName": "xianyang"
+        },
+        {
+          "cityId": 2303,
+          "cityName": "渭南市",
+          "cityLevel": 4,
+          "citySpellName": "weinan"
+        },
+        {
+          "cityId": 2304,
+          "cityName": "榆林市",
+          "cityLevel": 3,
+          "citySpellName": "yl"
+        },
+        {
+          "cityId": 2305,
+          "cityName": "宝鸡市",
+          "cityLevel": 3,
+          "citySpellName": "baoji"
+        },
+        {
+          "cityId": 2306,
+          "cityName": "安康市",
+          "cityLevel": 4,
+          "citySpellName": "ankang"
+        },
+        {
+          "cityId": 2307,
+          "cityName": "汉中市",
+          "cityLevel": 3,
+          "citySpellName": "hanzhong"
+        },
+        {
+          "cityId": 2308,
+          "cityName": "延安市",
+          "cityLevel": 4,
+          "citySpellName": "yanan"
+        },
+        {
+          "cityId": 2310,
+          "cityName": "铜川市",
+          "cityLevel": 4,
+          "citySpellName": "tongchuan"
+        },
+        {
+          "cityId": 2313,
+          "cityName": "商洛市",
+          "cityLevel": 4,
+          "citySpellName": "shangluo"
+        }
+      ]
+    },
+    {
+      "provinceId": 24,
+      "provinceName": "上海",
+      "provinceLevel": 0,
+      "provinceSpellName": "shanghai",
+      "firstLetter": "S",
+      "cities": [
+        {
+          "cityId": 2401,
+          "cityName": "上海市",
+          "cityLevel": 1,
+          "citySpellName": "shanghai"
+        }
+      ]
+    },
+    {
+      "provinceId": 25,
+      "provinceName": "四川省",
+      "provinceLevel": 0,
+      "provinceSpellName": "sichuan",
+      "firstLetter": "S",
+      "cities": [
+        {
+          "cityId": 2501,
+          "cityName": "成都市",
+          "cityLevel": 2,
+          "citySpellName": "chengdu"
+        },
+        {
+          "cityId": 2502,
+          "cityName": "绵阳市",
+          "cityLevel": 3,
+          "citySpellName": "mianyang"
+        },
+        {
+          "cityId": 2503,
+          "cityName": "遂宁市",
+          "cityLevel": 4,
+          "citySpellName": "suining"
+        },
+        {
+          "cityId": 2504,
+          "cityName": "攀枝花市",
+          "cityLevel": 4,
+          "citySpellName": "panzhihua"
+        },
+        {
+          "cityId": 2506,
+          "cityName": "宜宾市",
+          "cityLevel": 4,
+          "citySpellName": "yibin"
+        },
+        {
+          "cityId": 2507,
+          "cityName": "雅安市",
+          "cityLevel": 4,
+          "citySpellName": "yaan"
+        },
+        {
+          "cityId": 2508,
+          "cityName": "自贡市",
+          "cityLevel": 4,
+          "citySpellName": "zigong"
+        },
+        {
+          "cityId": 2509,
+          "cityName": "资阳市",
+          "cityLevel": 4,
+          "citySpellName": "ziyang"
+        },
+        {
+          "cityId": 2510,
+          "cityName": "广元市",
+          "cityLevel": 4,
+          "citySpellName": "guangyuan"
+        },
+        {
+          "cityId": 2511,
+          "cityName": "德阳市",
+          "cityLevel": 4,
+          "citySpellName": "deyang"
+        },
+        {
+          "cityId": 2512,
+          "cityName": "乐山市",
+          "cityLevel": 4,
+          "citySpellName": "leshan"
+        },
+        {
+          "cityId": 2513,
+          "cityName": "南充市",
+          "cityLevel": 3,
+          "citySpellName": "nanchong"
+        },
+        {
+          "cityId": 2514,
+          "cityName": "眉山市",
+          "cityLevel": 4,
+          "citySpellName": "meishan"
+        },
+        {
+          "cityId": 2516,
+          "cityName": "巴中市",
+          "cityLevel": 4,
+          "citySpellName": "bazhong"
+        },
+        {
+          "cityId": 2517,
+          "cityName": "泸州市",
+          "cityLevel": 4,
+          "citySpellName": "luzhou"
+        },
+        {
+          "cityId": 2519,
+          "cityName": "内江市",
+          "cityLevel": 4,
+          "citySpellName": "neijiang"
+        },
+        {
+          "cityId": 2530,
+          "cityName": "广安市",
+          "cityLevel": 4,
+          "citySpellName": "guangan"
+        },
+        {
+          "cityId": 2532,
+          "cityName": "达州市",
+          "cityLevel": 4,
+          "citySpellName": "dazhou"
+        },
+        {
+          "cityId": 2535,
+          "cityName": "阿坝藏族羌族自治州",
+          "cityLevel": 5,
+          "citySpellName": "abacangzuqiangzuzizhizhou"
+        },
+        {
+          "cityId": 2536,
+          "cityName": "甘孜藏族自治州",
+          "cityLevel": 5,
+          "citySpellName": "ganzicangzuzizhizhou"
+        },
+        {
+          "cityId": 2537,
+          "cityName": "凉山彝族自治州",
+          "cityLevel": 4,
+          "citySpellName": "liangshanyizuzizhizhou"
+        }
+      ]
+    },
+    {
+      "provinceId": 26,
+      "provinceName": "天津",
+      "provinceLevel": 0,
+      "provinceSpellName": "tianjin",
+      "firstLetter": "T",
+      "cities": [
+        {
+          "cityId": 2601,
+          "cityName": "天津市",
+          "cityLevel": 2,
+          "citySpellName": "tianjin"
+        }
+      ]
+    },
+    {
+      "provinceId": 27,
+      "provinceName": "西藏自治区",
+      "provinceLevel": 0,
+      "provinceSpellName": "xizang",
+      "firstLetter": "X",
+      "cities": [
+        {
+          "cityId": 2701,
+          "cityName": "拉萨市",
+          "cityLevel": 4,
+          "citySpellName": "lasa"
+        },
+        {
+          "cityId": 2704,
+          "cityName": "山南地区",
+          "cityLevel": 5,
+          "citySpellName": "shannan"
+        },
+        {
+          "cityId": 2705,
+          "cityName": "那曲地区",
+          "cityLevel": 5,
+          "citySpellName": "naqudiqu"
+        },
+        {
+          "cityId": 2706,
+          "cityName": "日喀则地区",
+          "cityLevel": 5,
+          "citySpellName": "rikazediqu"
+        },
+        {
+          "cityId": 2707,
+          "cityName": "阿里地区",
+          "cityLevel": 5,
+          "citySpellName": "alidiqu"
+        },
+        {
+          "cityId": 2708,
+          "cityName": "山南地区",
+          "cityLevel": null,
+          "citySpellName": "shannandiqu"
+        },
+        {
+          "cityId": 2709,
+          "cityName": "昌都地区",
+          "cityLevel": 5,
+          "citySpellName": "changdudiqu"
+        },
+        {
+          "cityId": 2710,
+          "cityName": "林芝地区",
+          "cityLevel": 5,
+          "citySpellName": "linzhidiqu"
+        }
+      ]
+    },
+    {
+      "provinceId": 28,
+      "provinceName": "新疆维吾尔自治区",
+      "provinceLevel": 0,
+      "provinceSpellName": "xinjiang",
+      "firstLetter": "X",
+      "cities": [
+        {
+          "cityId": 2801,
+          "cityName": "乌鲁木齐市",
+          "cityLevel": 3,
+          "citySpellName": "wulumuqi"
+        },
+        {
+          "cityId": 2803,
+          "cityName": "克拉玛依市",
+          "cityLevel": 4,
+          "citySpellName": "kelamayi"
+        },
+        {
+          "cityId": 2821,
+          "cityName": "博尔塔拉蒙古自治州",
+          "cityLevel": 5,
+          "citySpellName": "boertalamengguzizhizhou"
+        },
+        {
+          "cityId": 2822,
+          "cityName": "巴音郭楞蒙古自治州",
+          "cityLevel": 4,
+          "citySpellName": "bayinguolengmengguzizhizhou"
+        },
+        {
+          "cityId": 2823,
+          "cityName": "伊犁哈萨克自治州",
+          "cityLevel": 4,
+          "citySpellName": "yilihasakezizhizhou"
+        },
+        {
+          "cityId": 2828,
+          "cityName": "喀什地区",
+          "cityLevel": 4,
+          "citySpellName": "kashidiqu"
+        },
+        {
+          "cityId": 2829,
+          "cityName": "阿克苏地区",
+          "cityLevel": 4,
+          "citySpellName": "akesudiqu"
+        },
+        {
+          "cityId": 2830,
+          "cityName": "和田地区",
+          "cityLevel": 5,
+          "citySpellName": "hetiandiqu"
+        },
+        {
+          "cityId": 2831,
+          "cityName": "塔城地区",
+          "cityLevel": 5,
+          "citySpellName": "tachengdiqu"
+        },
+        {
+          "cityId": 2832,
+          "cityName": "吐鲁番地区",
+          "cityLevel": 5,
+          "citySpellName": "tulufandiqu"
+        },
+        {
+          "cityId": 2833,
+          "cityName": "哈密地区",
+          "cityLevel": 5,
+          "citySpellName": "hamidiqu"
+        },
+        {
+          "cityId": 2834,
+          "cityName": "阿勒泰地区",
+          "cityLevel": 5,
+          "citySpellName": "aletaidiqu"
+        },
+        {
+          "cityId": 2835,
+          "cityName": "克孜勒苏柯尔克孜自治州",
+          "cityLevel": 4,
+          "citySpellName": "xinjiangkezhou"
+        },
+        {
+          "cityId": 652300,
+          "cityName": "昌吉回族自治州",
+          "cityLevel": 4,
+          "citySpellName": "changjihuizuzizhizhou"
+        }
+      ]
+    },
+    {
+      "provinceId": 29,
+      "provinceName": "云南省",
+      "provinceLevel": 0,
+      "provinceSpellName": "yunnan",
+      "firstLetter": "Y",
+      "cities": [
+        {
+          "cityId": 2901,
+          "cityName": "昆明市",
+          "cityLevel": 2,
+          "citySpellName": "kunming"
+        },
+        {
+          "cityId": 2902,
+          "cityName": "玉溪市",
+          "cityLevel": 4,
+          "citySpellName": "yuxi"
+        },
+        {
+          "cityId": 2903,
+          "cityName": "曲靖市",
+          "cityLevel": 4,
+          "citySpellName": "qujing"
+        },
+        {
+          "cityId": 2907,
+          "cityName": "保山市",
+          "cityLevel": 4,
+          "citySpellName": "baoshan"
+        },
+        {
+          "cityId": 2911,
+          "cityName": "临沧市",
+          "cityLevel": 4,
+          "citySpellName": "lincang"
+        },
+        {
+          "cityId": 2914,
+          "cityName": "文山壮族苗族自治州",
+          "cityLevel": 4,
+          "citySpellName": "wenshan"
+        },
+        {
+          "cityId": 2915,
+          "cityName": "西双版纳傣族自治州",
+          "cityLevel": 4,
+          "citySpellName": "xishuangbanna"
+        },
+        {
+          "cityId": 2918,
+          "cityName": "昭通市",
+          "cityLevel": 4,
+          "citySpellName": "zhaotong"
+        },
+        {
+          "cityId": 2922,
+          "cityName": "丽江市",
+          "cityLevel": 4,
+          "citySpellName": "lijiang"
+        },
+        {
+          "cityId": 2923,
+          "cityName": "红河哈尼族彝族自治州",
+          "cityLevel": 4,
+          "citySpellName": "honghehanizuyizuzizhizhou"
+        },
+        {
+          "cityId": 2925,
+          "cityName": "德宏傣族景颇族自治州",
+          "cityLevel": 4,
+          "citySpellName": "dehongdaizujingpozuzizhizhou"
+        },
+        {
+          "cityId": 2927,
+          "cityName": "怒江傈僳族自治州",
+          "cityLevel": 5,
+          "citySpellName": "nujianglisuzuzizhizhou"
+        },
+        {
+          "cityId": 2928,
+          "cityName": "迪庆藏族自治州",
+          "cityLevel": 5,
+          "citySpellName": "diqingcangzuzizhizhou"
+        },
+        {
+          "cityId": 2929,
+          "cityName": "普洱市",
+          "cityLevel": 4,
+          "citySpellName": "puer"
+        },
+        {
+          "cityId": 532300,
+          "cityName": "楚雄彝族自治州",
+          "cityLevel": 4,
+          "citySpellName": "chuxiongyizuzizhizhou"
+        },
+        {
+          "cityId": 532900,
+          "cityName": "大理白族自治州",
+          "cityLevel": 4,
+          "citySpellName": "dalibaizuzizhizhou"
+        }
+      ]
+    },
+    {
+      "provinceId": 30,
+      "provinceName": "浙江省",
+      "provinceLevel": 0,
+      "provinceSpellName": "zhejiang",
+      "firstLetter": "Z",
+      "cities": [
+        {
+          "cityId": 3020,
+          "cityName": "舟山市",
+          "cityLevel": 4,
+          "citySpellName": "zhoushan"
+        },
+        {
+          "cityId": 3001,
+          "cityName": "杭州市",
+          "cityLevel": 2,
+          "citySpellName": "hangzhou"
+        },
+        {
+          "cityId": 3002,
+          "cityName": "宁波市",
+          "cityLevel": 2,
+          "citySpellName": "ningbo"
+        },
+        {
+          "cityId": 3003,
+          "cityName": "温州市",
+          "cityLevel": 2,
+          "citySpellName": "wenzhou"
+        },
+        {
+          "cityId": 3005,
+          "cityName": "嘉兴市",
+          "cityLevel": 3,
+          "citySpellName": "jiaxing"
+        },
+        {
+          "cityId": 3006,
+          "cityName": "金华市",
+          "cityLevel": 3,
+          "citySpellName": "jinhua"
+        },
+        {
+          "cityId": 3009,
+          "cityName": "丽水市",
+          "cityLevel": 4,
+          "citySpellName": "lishui"
+        },
+        {
+          "cityId": 3011,
+          "cityName": "湖州市",
+          "cityLevel": 3,
+          "citySpellName": "huzhou"
+        },
+        {
+          "cityId": 3012,
+          "cityName": "衢州市",
+          "cityLevel": 4,
+          "citySpellName": "quzhou"
+        },
+        {
+          "cityId": 3015,
+          "cityName": "台州市",
+          "cityLevel": 3,
+          "citySpellName": "tz"
+        },
+        {
+          "cityId": 3016,
+          "cityName": "绍兴市",
+          "cityLevel": 3,
+          "citySpellName": "shaoxing"
+        },
+        {
+          "cityId": 339000,
+          "cityName": "余慈市",
+          "cityLevel": null,
+          "citySpellName": "yuci"
+        },
+        {
+          "cityId": 339100,
+          "cityName": "乐清地区",
+          "cityLevel": null,
+          "citySpellName": "yueqing"
+        }
+      ]
+    },
+    {
+      "provinceId": 31,
+      "provinceName": "重庆",
+      "provinceLevel": 0,
+      "provinceSpellName": "chongqing",
+      "firstLetter": "C",
+      "cities": [
+        {
+          "cityId": 3101,
+          "cityName": "重庆市",
+          "cityLevel": 2,
+          "citySpellName": "chongqing"
+        }
+      ]
+    },
+    {
+      "provinceId": 710000,
+      "provinceName": "台湾省",
+      "provinceLevel": 0,
+      "provinceSpellName": "taiwansheng",
+      "firstLetter": "T",
+      "cities": []
+    },
+    {
+      "provinceId": 810000,
+      "provinceName": "香港特别行政区",
+      "provinceLevel": 0,
+      "provinceSpellName": "xianggangtebiexingzhengqu",
+      "firstLetter": "X",
+      "cities": []
+    },
+    {
+      "provinceId": 820000,
+      "provinceName": "澳门特别行政区",
+      "provinceLevel": 0,
+      "provinceSpellName": "aomentebiexingzhengqu",
+      "firstLetter": "A",
+      "cities": []
+    }
+  ]
+}

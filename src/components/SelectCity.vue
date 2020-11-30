@@ -1,7 +1,6 @@
 <template>
   <div
     class="me-city-main"
-    v-if="showCityDialog"
   >
     <div class="me-city-layer">旋覆层</div>
     <div class="me-city-content">
@@ -20,7 +19,7 @@
               :class="{'me-city-list-letter-item':true,'indexActive':showCheckedIndex === index || isReverseShow}"
               v-for="(item,index) in alphabet"
               :key="index"
-              @click="indexSearch(item,index)"
+              @click="indexSearch(item,'anchor-'+index,index)"
             >{{item}}</span>
           </div>
           <div>
@@ -40,8 +39,11 @@
             class="me-city-list-province-item"
             v-for="(item,index) in PCAllData"
             :key="item.provinceId"
+            :ref ="index === 0||(PCAllData[index-1].firstLetter!=item.firstLetter)? 'anchor-'+alphabet.indexOf(item.firstLetter):''"
+            :id ="index === 0||(PCAllData[index-1].firstLetter!=item.firstLetter)? 'anchor-'+alphabet.indexOf(item.firstLetter):''"
           >
-            <!-- 处理省份的 -->
+          
+            <!-- 处理省份的 --> 
             <p
               class="me-city-list-province-title"
               @click="getProvinceItem('pItem'+item.provinceId)"
@@ -58,7 +60,7 @@
               {{item.provinceName}}
             </p>
             <!-- 处理市的 -->
-            <div class="me-city-list-city-wrap">
+            <div class="me-city-list-city-wrap" v-show ='item.cities.length!=1'>
               <span
                 class="me-city-list-city-item"
                 v-for="(itemCity,indexCity) in item.cities"
@@ -91,9 +93,8 @@
 import axios from 'axios'
 export default {
   props: {
-    getCityData: Array
+    cityDataChild: Array
   },
-  // props: ['getCityData'],
   name: "SelectCity",
   data () {
     return {
@@ -119,28 +120,35 @@ export default {
       isReverseShow: false, // 在反选时，显示，false是不显示，true是显示
       meReverseActive: false,// 反选选中时,按钮加背景色
       meAllActive: false,// 全选选中时,按钮加背景色
-      showCityDialog: false, // 控制该组件的显示与否
 
     }
   },
   created () {
-    console.log('app传来的城市数据:', this.getCityData);
-    this.getAllData();
-    this.showCityDialog = true;
+    
+  },
+  mounted(){
+    this.$nextTick(()=>{
+      this.getAllData();
+      // console.log(this.cityDataChild[0])
+      
+    })
+    
   },
   methods: {
     // 根据字母查询
-    indexSearch (item, index) {
-      this.PCAllData = this.backupData
-      let tempData = [];
-      this.currentCheckedLetter = item;
-      this.PCAllData.forEach((itemNew) => {
-        if (itemNew.firstLetter == item) {
-          this.showCheckedIndex = index
-          tempData.push(itemNew)
-        }
-      });
-      this.PCAllData = tempData;
+    indexSearch (item,selector, index) {
+      document.getElementById(selector).scrollIntoView({behavior: "smooth",block:"start"});
+      this.showCheckedIndex = index
+      // this.PCAllData = this.backupData
+      // let tempData = [];
+      // this.currentCheckedLetter = item;
+      // this.PCAllData.forEach((itemNew) => {
+      //   if (itemNew.firstLetter == item) {
+      //     this.showCheckedIndex = index
+      //     tempData.push(itemNew)
+      //   }
+      // });
+      // this.PCAllData = tempData;
     },
     // 反选
     reverseChecked () {
@@ -247,20 +255,17 @@ export default {
     },
     // 请求接口，获取数据
     async getAllData () {
-      const res = await axios.get(`http://localhost:3000/Data`);
-
-
-
-
-
-      let tempAllData = mergeSort(res.data);
+      const res = await axios.get(`./js/data.json`);
+      // console.log(res)
+      // let tempAllData = mergeSort(this.cityDataChild);
+      let tempAllData = mergeSort(res.data.Data);
       // 遇到直辖市,就不显示二级城市了
-      for (let i = 0; i < tempAllData.length; i++) {
-        if (tempAllData[i].cities.length === 1) {
-          tempAllData[i].cities.splice(0, 1)
-        }
-      }
-      console.log(tempAllData);
+      // for (let i = 0; i < tempAllData.length; i++) {
+      //   if (tempAllData[i].cities.length === 1) {
+      //     tempAllData[i].cities.splice(0, 1)
+      //   }
+      // }
+      
       this.PCAllData = tempAllData;
       this.backupData = tempAllData;
 
@@ -268,6 +273,7 @@ export default {
     },
     // 渲染所有的省市
     allDataRender (itemId) {
+      console.log(11)
       for (let i = 0; i < this.PCAllData.length; i++) {
         // 筛选出对应的省份
         if (this.PCAllData[i].provinceId == parseInt(itemId.substr(5))) {
@@ -318,6 +324,7 @@ export default {
     },
     // 选择城市
     getCityItem (index, item, provinceID, refItem) {
+      console.log(222)
       // 如果城市是被选中状态，点击完取消
       if (this.$refs[refItem][0].src == this.isCheckImg.checked) {
         // 取消选中
@@ -387,31 +394,31 @@ export default {
 
     // 确定按钮
     confirm () {
-      this.PCAllData.forEach((item) => {
-        let arr = [];// 暂存被筛选出来的城市
-        item.cities.forEach((cItem) => {
-          if (cItem.cState === "checked") {
-            arr.push(cItem)
-          }
-        })
-        // 将被选中的省市存到一个数组里面
-        if (arr.length > 0 || item.pState === 'checked') {
-          this.PCAllDataBackup.push({
-            firstLetter: item.firstLetter,
-            pState: item.pState,
-            provinceId: item.provinceId,
-            provinceLevel: item.provinceLevel,
-            provinceName: item.provinceName,
-            cities: arr
-          })
-        }
-      })
-      this.showCityDialog = false;
-      console.log('确定:', this.PCAllDataBackup);
+      // this.PCAllData.forEach((item) => {
+      //   let arr = [];// 暂存被筛选出来的城市
+      //   item.cities.forEach((cItem) => {
+      //     if (cItem.cState === "checked") {
+      //       arr.push(cItem)
+      //     }
+      //   })
+      //   // 将被选中的省市存到一个数组里面
+      //   if (arr.length > 0 || item.pState === 'checked') {
+      //     this.PCAllDataBackup.push({
+      //       firstLetter: item.firstLetter,
+      //       pState: item.pState,
+      //       provinceId: item.provinceId,
+      //       provinceLevel: item.provinceLevel,
+      //       provinceName: item.provinceName,
+      //       cities: arr
+      //     })
+      //   }
+      // })
+      this.$emit('send-city-all-data', {data: this.PCAllData, done: false});
+      // console.log('确定:', this.PCAllDataBackup);
     },
     // 关闭按钮
     closeSelectCity () {
-      this.showCityDialog = false;
+      this.$emit("send-city-all-data", {done: false})
     }
 
   }
@@ -523,7 +530,7 @@ function myMerge (left, right) {
   position: fixed;
   width: 100%;
   height: 100%;
-  /* z-index: 1; */
+  z-index: 1;
   background-color: rgba(0, 0, 0, 0.8);
   top: 0;
   left: 0;
